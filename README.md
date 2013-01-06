@@ -6,7 +6,7 @@ simply checks validity with bash -n.
 ## Getting started
 
 ```
-npm install https://github.com/oxyc/grunt-lint-bash
+npm install grunt-lint-bash
 ```
 
 ```javascript
