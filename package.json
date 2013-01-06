@@ -1,0 +1,32 @@
+{
+  "name": "grunt-lint-bash",
+  "description": "Grunt task for validating bash scripts",
+  "version": "0.0.1",
+  "homepage": "https://github.com/oxyc/grunt-lint-bash",
+  "bugs": "https://github.com/oxyc/grunt-lint-bash/issues",
+  "author": {
+    "name": "Oskar Schöldström",
+    "email": "public@oxy.fi"
+  },
+  "main": "grunt.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oxyc/grunt-lint-bash.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/grunt lint"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.3.17"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "licenses": {
+    "type": "MIT"
+  },
+  "keywords": [
+    "gruntplugin", "lint", "bash", "grunt"
+  ]
+}
