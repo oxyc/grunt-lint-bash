@@ -1,4 +1,4 @@
-# grunt-lint-inline
+# grunt-lint-bash
 
 Grunt task for validating bash scripts. This is not really a lint tool, it
 simply checks validity with bash -n.
