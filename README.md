@@ -5,8 +5,10 @@ simply checks validity with bash -n.
 
 ## Getting started
 
+This plugin requires Grunt `~0.4.0`
+
 ```
-npm install grunt-lint-bash
+npm install grunt-lint-bash --save-dev
 ```
 
 ```javascript
@@ -18,11 +20,21 @@ grunt.loadNpmTasks('grunt-lint-bash');
 ```javascript
 grunt.initConfig({
   bashlint: {
+    options: { force: true },
     src: ['**/*.sh']
   }
 });
-grunt.loadNpmTasks('bashlint');
+
+grunt.loadNpmTasks('grunt-lint-bash');
 ```
+
+### Options
+
+#### force
+
+Type: `Boolean` Default value: `false`
+
+Set `force` to true to report errors but not fail the task.
 
 ## License
 
